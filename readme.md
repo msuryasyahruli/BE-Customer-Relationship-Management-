@@ -126,6 +126,11 @@ npm install
 Buat file .env di direktori root dan tambahkan konfigurasi berikut:
 
 ```bash
+PGUSER=your_database_user
+PGHOST=database_host
+PGDATABASE=database_name
+PGPASSWORD=database_password
+PGPORT=posgresql_port
 PORT=3000
 JWT_SECRET=your_jwt_secret
 REFRESH_TOKEN_SECRET=your_refresh_token_secret
@@ -142,4 +147,4 @@ Server akan berjalan di http://localhost:3000
 
 ## 🔗 Link Terkait
 
-- [GitHub Repository](https://github.com/username/express-api)
+- [GitHub Repository](https://github.com/msuryasyahruli/BE-Customer-Relationship-Management-)
