@@ -59,8 +59,10 @@ const insertCustomer = (data) => {
     INSERT INTO customers(
         customer_id, 
         customer_name, 
-        email, phone_number, 
-        status, service_id, 
+        email, 
+        phone_number, 
+        status, 
+        service_id, 
         start_date, 
         end_date)
     VALUES ($1, $2, $3, $4, $5, $6, $7, $8)

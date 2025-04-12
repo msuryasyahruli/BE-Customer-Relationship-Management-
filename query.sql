@@ -25,8 +25,8 @@ CREATE TABLE customers (
     phone_number VARCHAR NOT NULL,
     status VARCHAR NOT NULL,
     service_id VARCHAR,
-    start_date TIME,
-    end_date TIME,
+    start_date DATE,
+    end_date DATE,
     FOREIGN KEY (service_id) REFERENCES services (service_id),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
