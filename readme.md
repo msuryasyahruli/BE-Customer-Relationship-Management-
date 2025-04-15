@@ -1,5 +1,23 @@
 # 🚀 Express API - User, Service, Customer
 
+## Table of Contents
+
+- [Express API - User, Service, Customer](#-express-api---user-service-customer)
+- [Struktur Endpoint](#-struktur-endpoint)
+  - [/users](#users)
+  - [/service](#service)
+  - [/customer](#customer)
+- [Dependencies](#-dependencies)
+- [Keamanan](#-keamanan)
+- [Diagram API](#-diagram-api)
+- [Struktur Database (SQL)](#️-struktur-database-sql)
+- [Panduan Instalasi](#️-panduan-instalasi)
+  - [Clone repositori](#1-clone-repositori)
+  - [Install dependencies](#2-install-dependencies)
+  - [Konfigurasi environment variables](#3-konfigurasi-environment-variables)
+  - [Jalankan server](#4-jalankan-server)
+- [Link Terkait](#-link-terkait)
+
 API sederhana menggunakan Express.js untuk menangani proses otentikasi pengguna, layanan (services), dan pelanggan (customers).
 
 ---
@@ -128,12 +146,12 @@ Buat file .env di direktori root dan tambahkan konfigurasi berikut:
 ```bash
 PGUSER=your_database_user
 PGHOST=database_host
-PGDATABASE=database_name
-PGPASSWORD=database_password
-PGPORT=posgresql_port
+PGDATABASE='project-crm'
+PGPASSWORD='database_password'
+PGPORT=5432
 PORT=3000
 JWT_SECRET=your_jwt_secret
-REFRESH_TOKEN_SECRET=your_refresh_token_secret
+DATABASE_URL=postgresql://database_url/project-crm?sslmode=require"
 ```
 
 ### 4. Jalankan server
