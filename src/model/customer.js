@@ -24,7 +24,12 @@ const selectAllCustomers = (
     ? sort.toUpperCase()
     : "ASC";
   const query = `
-    SELECT * FROM customers
+    SELECT 
+      customers.*, 
+      services.service_name 
+    FROM customers 
+    LEFT JOIN services 
+    ON customers.service_id = services.service_id
     ORDER BY ${sortColumn} ${sortDirection}
     LIMIT $1 OFFSET $2
   `;
