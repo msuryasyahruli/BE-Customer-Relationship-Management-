@@ -144,14 +144,14 @@ npm install
 Buat file .env di direktori root dan tambahkan konfigurasi berikut:
 
 ```bash
-PGUSER=your_database_user
-PGHOST=database_host
+PGUSER='your_database_user'
+PGHOST='database_host'
 PGDATABASE='project-crm'
 PGPASSWORD='database_password'
 PGPORT=5432
 PORT=3000
-JWT_SECRET=your_jwt_secret
-DATABASE_URL=postgresql://database_url/project-crm?sslmode=require"
+JWT_SECRET='your_jwt_secret'
+DATABASE_URL='postgresql://database_url/project-crm?sslmode=require'
 ```
 
 ### 4. Jalankan server
