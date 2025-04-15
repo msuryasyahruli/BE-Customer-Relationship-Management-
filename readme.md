@@ -109,8 +109,8 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini secara lokal:
 ### 1. Clone repositori
 
 ```bash
-git clone https://github.com/username/express-api.git
-cd express-api
+git clone https://github.com/msuryasyahruli/BE-Customer-Relationship-Management-.git
+cd BE-Customer-Relationship-Management-
 ```
 
 ### 2. Install dependencies
